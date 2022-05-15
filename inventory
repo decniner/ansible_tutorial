@@ -1,2 +1,15 @@
+ansible_phyton_interpreter=/usr/bin/python3
+
+[ubuntu]
 192.168.88.129
 192.168.88.133
+
+[win]
+192.168.88.131
+192.168.1.24
+
+[win:vars]
+ansible_user=ansible
+ansible_password=n4t040@Ans
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
