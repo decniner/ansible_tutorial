@@ -166,7 +166,23 @@
   448  ansible all -m _ping --limit ubuntu
   449  ansible all -m ping --limit ubuntu
   450  ansible all -m win_ping --limit win
-  451  git status
-  452  git add inventory 
-  453  git commit -m "updated inventory"
-  454  git push origin main
+  
+  
+  # save changes to git server
+  git status
+  git add inventory 
+  git commit -m "updated inventory"
+  git push origin main
+
+  # making changes using sudo
+  ansible ubuntu -m apt -a update_cache=true --become --ask-become-pass
+  ansible ubuntu -m apt -a name=vim-nox --become --ask-become-pass
+  ansible ubuntu -m apt -a name=tmux --become --ask-become-pass
+  
+  # run powershell command
+  ansible win -m "win_shell get-process"
+
+
+# show all package changes from log
+cd /var/log/apt
+cat history.log
