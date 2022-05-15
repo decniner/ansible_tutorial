@@ -1,0 +1,382 @@
+den@ubuntu:~/ansible_tutorial$ history
+    1  pwd
+    2  python
+    3  sudo apt-get update
+    4  sudo apt-get install python
+    5  python
+    6  python --version
+    7  sudo apt-get install python
+    8  pip install ansible
+    9  pipe install ansible
+   10  pip3 install ansible
+   11  pip
+   12  sudo apt install python3-pip
+   13  python
+   14  sudo su
+   15  ansible --version
+   16  ls
+   17  cd ansible
+   18  ls
+   19  mkdir ansible
+   20  sudo su
+   21  ansible --version
+   22  pip3 uninstall ansible
+   23  sudo su
+   24  cd..
+   25  cd ..
+   26  ls
+   27  ls | ansible
+   28  ls | grep "ansible"
+   29  rv ansible
+   30  rm ansible
+   31  rmdir ansible
+   32  sudo su
+   33  ansible --version
+   34  cd /etc/ansible
+   35  sudo su
+   36  cd etx
+   37  cd etc
+   38  cd..
+   39  cd .
+   40  cd
+   41  cd\
+   42  cd \
+   43  cd .
+   44  pwd
+   45  touch hosts
+   46  sudo touch hosts
+   47  ls
+   48  core hosts
+   49  code hosts
+   50  ansible --version
+   51  python
+   52  ansible -m ping -i win
+   53  ansible -m ping win
+   54  ansible --version
+   55  ansible -m ping win
+   56  ansible -m win_ping  win
+   57  ansible -m winping  win
+   58  ansible win -m win_ping
+   59  ansible windows -i hosts -m win_ping
+   60  ansible win -i hosts -m win_ping
+   61  pip3 install "pywinrm>=0.3.0"
+   62  ansible win -i hosts -m win_ping
+   63  cd home
+   64  pwd
+   65  ls
+   66  mkdir Courses
+   67  code winservice.yml
+   68  ansible-playbook winservice.yml 
+   69  ls
+   70  mv winservice.yml Courses
+   71  cd Courses/
+   72  ls
+   73  cd 
+   74  cd ~/Documents/Coursesa
+   75  ls
+   76  code winservice.yml 
+   77  ansible-playbook winservice.yml 
+   78  clear
+   79  ansible-playbook winservice.yml 
+   80  clear
+   81  ansible-playbook winservice.yml 
+   82  clear
+   83  ansible-playbook winservice.yml 
+   84  clear
+   85  ansible-playbook winservice.yml 
+   86  clear
+   87  ansible-playbook winservice.yml 
+   88  code winfeature.yml
+   89  ansible-playbook winfeature.yml 
+   90  ansible-playbook winservice.yml 
+   91  ansible-playbook winfeature.yml 
+   92  ansible-galaxy collection install ansible.windows
+   93  ansible-playbook winfeature.yml 
+   94  ansible-galaxy collection uninstall ansible.windows
+   95  ansible-galaxy collection remove ansible.windows
+   96  su ansible-galaxy collection install ansible.windows
+   97  sudo su
+   98  ansible-playbook winfeature.yml 
+   99  ansible-galaxy collection list
+  100  ansible-galaxy collection install ansible.windows
+  101  ls
+  102  code powershell.yml
+  103  ansible-playbook powershell.yml 
+  104  clear
+  105  ansible-playbook powershell.yml 
+  106  clear
+  107  ansible-playbook powershell.yml 
+  108  clear
+  109  ansible-playbook powershell.yml 
+  110  cd Courses/
+  111  ls
+  112  ansible-playbook powershell.yml 
+  113  ls
+  114  cd Desktop/
+  115  ls
+  116  cd \
+  117  cd .
+  118  ls
+  119  cd Documents/
+  120  ls
+  121  cd Courses/
+  122  ls
+  123  code powershell.yml 
+  124  ansible-playbook ps2.yml
+  125  ls
+  126  cd Courses
+  127  ls
+  128  ansible-playbook winservice.yml
+  129  ansible-playbook powershell.yml 
+  130  ansible-playbook ps2.yml
+  131  ansible-playbook powershell.yml 
+  132  ansible-playbook ps2.yml 
+  133  ansible-playbook loop.yml 
+  134  clear
+  135  ansible-playbook loop.yml 
+  136  sudo ansible-playbook loop.yml 
+  137  ansible-playbook loop.yml 
+  138  clear
+  139  ansible-playbook loop.yml 
+  140  ansible-playbook ps2.yml 
+  141  ansible -m winping 192.168.1.24
+  142  ansible -m win_ping 192.168.1.24
+  143  ansible -m win_ping 192.168.88.131
+  144  ansible -m win_ping NIX
+  145  cls
+  146  clear
+  147  ansible-playbook ps2.yml 
+  148  ansible-playbook install-RSAT.yml 
+  149  ansible -i localhost -u root -m user -a "name=den state=present" all
+  150  ansible -i hosts -u root -m user -a "name=den state=present" all
+  151  ansible -i ~/etc/ansible/hosts -u root -m user -a "name=den state=present" all
+  152  ansible -i ~/etc/ansible/localhosts -u root -m user -a "name=den state=present" all
+  153  ansible -i ~/etc/ansible/localhost -u root -m user -a "name=den state=present" all
+  154  code inventory.ini
+  155  ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  156  sudo ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  157  sudo su ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  158  sudo ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  159  ifconfig
+  160  ipconfig
+  161  iwconfig
+  162  hostname
+  163  sudo ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  164  ansible -i inventory.ini -u root -m user -a "name=den state=present" all
+  165  ansible-playbook ps2.yml 
+  166  ansible-playbook installVisualC.yml 
+  167  ansible-playbook installVisualC.yml -vvv 
+  168  clear
+  169  ansible-playbook installVisualC.yml -vvv 
+  170  ls
+  171  cd Courses/
+  172  ls
+  173  clear
+  174  ansible -m win_ping
+  175  ansible -m win_ping i ~/etc/ansible/hosts
+  176  ansible -m win_ping i hosts
+  177  ansible TestHost -m win_ping
+  178  ansible testhost -m win_ping
+  179  ansible 192.168.88.131 -m win_ping
+  180  ansible WINTEST -m win_ping
+  181  ansible win -m win_ping
+  182  ansible test -m win_ping
+  183  ansible prod -m win_ping
+  184  ansible all -m win_ping
+  185  ansible test,prod -m win_ping
+  186  clear
+  187  code installVisualC.yml
+  188  ansible-playbook test2.yml
+  189  sudo ansible-playbook test2.yml
+  190  sudo ansible-playbook test2.yml -vvv
+  191  ansible-playbook createwinuser.yml 
+  192  vi winacldenyintern.yml
+  193  ansible-playbook winacldenyintern.yml -vvv
+  194  ansible-playbook winacldenyintern.yml -vvvvvv
+  195  ansible-playbook winacldenyintern.yml -vvvv
+  196  clear
+  197  ansible-playbook winacldenyintern.yml -vvvv
+  198  ansible-playbook sendmail.yml 
+  199  code winchocolateyinstallprocexp.yml
+  200  ansible-playbook winchocolateyinstallprocexp.yml 
+  201  ansible-playbook winchocolateyinstallanapp.yml.yml 
+  202  ansible-playbook winchocolateyinstallanapp.yml -vvv
+  203  ansible -i test -m choco uninstall notepadplusplus.install
+  204  choco uninstall notepadplusplus.install
+  205  ansible-playbook winchocolateyinstallanapp.yml -vvv
+  206  ansible-playbook winchocolateyinstallanapp.yml
+  207  ansible-playbook winchocolateyinstallanapp.yml -v
+  208  ansible-playbook winchocolateyinstallanapp.yml -vv
+  209  ansible-playbook winchocolateyinstallanapp.yml -vvv
+  210  ansible-playbook winchocolateyinstallanapp.yml
+  211  ls
+  212  ansible-playbook createwinuser.yml -vvv
+  213  ansible-playbook createwinuser.yml
+  214  ansible-playbook removewinuser.yml -vvv
+  215  clear
+  216  ansible-playbook pswinsay.yml 
+  217  vi test2.yml
+  218  ansible-playbook test2.yml -vvv
+  219  vi test2.yml
+  220  vi test2.yml 
+  221  ansible -a "date"
+  222  ansible -a "date" -i host
+  223  ansible -a "date" -i hosts
+  224  ansible -a "date" -i localhosts
+  225  ansible -m win_ping
+  226  ansible -m win_ping -u ansible
+  227  ansible-playbook winservice.yml 
+  228  code inventory
+  229  ansible -i inventory -m win_ping
+  230  ansible -i inventory -m ping
+  231  ansible -i inventory -m win_ping -u ansible
+  232  ansible -i inventory -m ping
+  233  ansible -i inventory -m ping pattern
+  234  ansible-playbook winservice.yml -i inventory
+  235  ansible-playbook winservice.yml
+  236  sudo ansible-playbook installlocalapp.yml 
+  237  sshpass
+  238  sudo apt install sshpass
+  239  sudo ansible-playbook installlocalapp.yml 
+  240  ifconfig
+  241  ipconfig
+  242  sudo apt install net-tools
+  243  ifconfig
+  244  clear
+  245  ifconfig
+  246  sudo ansible-playbook installlocalapp.yml 
+  247  clear
+  248  sudo ansible-playbook installlocalapp.yml 
+  249  sudo ansible-playbook installlocalapp.yml -vvv
+  250  sudo ansible-playbook installlocalapp.yml
+  251  ansible test -m win_ping
+  252  ansible test -m win_ping -u ansible
+  253  ansible test -m win_ping -u decniner
+  254  ansible test -m win_ping -u hahaha
+  255  ansible test -m win_ping
+  256  ansible test -a "date"
+  257  ansible localhost -a "date"
+  258  ansible localhost -a "free h"
+  259  ansible localhost -a "free-hh"
+  260  ansible localhost -a "free -h"
+  261  free -h
+  262  free
+  263  time
+  264  ansible localhost -a "time"
+  265  time
+  266  time.sys
+  267  time.real
+  268  ansible test -m win_ping --vvv
+  269  ansible test -m win_ping -vvv
+  270  ansible test -a "free -m"
+  271  ansible localhost -a "free -m"
+  272  ansible localhost -a "df -h"
+  273  ansible all -m win_ping
+  274  ansible test,prod -m win_ping
+  275  clear
+  276  ansible test,prod -m win_ping
+  277  ansible test -m win_ping
+  278  sudo ansible-playbook installlocalapp.yml 
+  279  code healthcheck.yml
+  280  ansible-playbook healthcheck.yml 
+  281  ansible-playbook healthcheck.yml -vvv
+  282  ifconfig
+  283  ssh 192.168.88.129
+  284  ipcofig
+  285  ifconfig
+  286  which git
+  287  cd\
+  288  ssh 192.168.88.132
+  289  sudo apt install openssh-server
+  290  ssh 192.168.88.132
+  291  cd\
+  292  clear
+  293  hostname
+  294  ssh 192.168.88.129
+  295  clear
+  296  ls -la .ssh
+  297  ssh-keygen -t ed25519 -C "den default"
+  298  ls -la .ssh
+  299  cat /ssh/id_ed25519.pub
+  300  cat .ssh/id_ed25519.pub
+  301  ssh-copy-id -i ~/.ssh/id_ed25519.pub 192.168.88.129
+  302  ssh 192.168.88.129
+  303  host
+  304  hostname
+  305  cd \
+  306  ssh-keygen -t ed25519 -C "ansible"
+  307  ls -la .ssh
+  308  ssh-copy-id -i ~/.ssh/ansible.pub 192.168.88.129
+  309  cat .ssh
+  310  ls .ssh
+  311  hostname
+  312  ssh -i ~/.ssh/ansible 192.168.88.129
+  313  ssh 192.168.88.129
+  314  eval $(ssh-agent)
+  315  ps aux | grep 8880
+  316  ssh-add
+  317  ssh 192.168.88.129
+  318  history
+  319  alias ssha='eval $(ssh-agent) && ssh-add'
+  320  ssha
+  321  code .bachrc
+  322  code .bashrc
+  323  cd \
+  324  ssh 192.168.88.129
+  325  ssh -i ~/.ssh/ansible 192.168.88.132
+  326  ssh 192.168.88.129
+  327  cd \
+  328  ssh 192.168.88.129
+  329  alias ssha
+  330  ssha
+  331  ssh 192.168.88.129
+  332  clear
+  333  which git
+  334  sufo apt update
+  335  sudo apt update
+  336  sudo apt install git
+  337  clear
+  338  which git
+  339  git
+  340  clear
+  341  cat .ssh/id_ed25519.pub
+  342  git clone git@github.com:decniner/ansible_tutorial.git
+  343  ls
+  344  cd ansible_tutorial/
+  345  ls
+  346  cat README.md
+  347  git config --global user.name "Denver Sanchez"
+  348  git config --global user.email "decniner@gmail.com"
+  349  cat ~/.gitconfig
+  350  ls
+  351  code README.md
+  352  cat README.md
+  353  clear
+  354  git status
+  355  git diff
+  356  git add README.md 
+  357  git status
+  358  git add .
+  359  git status
+  360  git commit -m "updated readme file, initial commit"
+  361  git status
+  362  clear
+  363  git push origin master
+  364  git commit -m "updated readme file, initial commit"
+  365  git status
+  366  git push origin master
+  367  ls
+  368  git status
+  369  ls
+  370  git status
+  371  git diff
+  372  clear
+  373  git add README.md 
+  374  git status
+  375  git commit -m "initial commit"
+  376  git push origin master
+  377  git push origin main
+  378  git status
+  379  git add README.md 
+  380  git commit -m "updated readme file, initial commit"
+  381  git push origin main
